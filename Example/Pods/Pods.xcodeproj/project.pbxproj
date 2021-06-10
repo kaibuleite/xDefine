@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1798B88137EF6865D7A7E72DCA962097 /* xDefine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9C8D41835B46ED41D9AF262674437 /* xDefine-dummy.m */; };
+		04E7C0CB2671E910006C69FF /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7C0CA2671E910006C69FF /* Screen.swift */; };
+		04E7C0D02671E96B006C69FF /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7C0CF2671E96B006C69FF /* Bar.swift */; };
+		04E7C0D52671E9AE006C69FF /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7C0D42671E9AE006C69FF /* Notification.swift */; };
+		04E7C0DD2671E9D9006C69FF /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7C0DC2671E9D9006C69FF /* Lock.swift */; };
+		04E7C0E52671EA9C006C69FF /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7C0E42671EA9C006C69FF /* Log.swift */; };
+		04E7C0EA2671EAE1006C69FF /* Timestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7C0E92671EAE1006C69FF /* Timestamp.swift */; };
+		04E7C0EF2671EB79006C69FF /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7C0EE2671EB79006C69FF /* View.swift */; };
+		04E7C0F92671EBF3006C69FF /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7C0F82671EBF3006C69FF /* Random.swift */; };
+		0FAFDFE4FB49B26E54CF9ED847265907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		22D5A8820CF6A736807CAEF9F2DD893F /* xDefine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A890378F25D058B3C4CDCAD43C10D3DD /* xDefine-dummy.m */; };
 		3B65BCEDE5F6B9460A515144B99C4B9F /* Pods-xDefine_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657CEE54DBF39BEB95706A3BAF14A95 /* Pods-xDefine_Tests-dummy.m */; };
 		5C0FBFA8335C5ECEA30EF92A503A3A6B /* Pods-xDefine_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E87F7322A2BE6B5905FCA1EBE6C3FA9 /* Pods-xDefine_Example-dummy.m */; };
-		61349589054961AE08A544AAD01F0FF5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA389B03A568E85DD278445BA0517BC /* ReplaceMe.swift */; };
 		770B48EFB72618D1D2F3A8783EC65EDC /* Pods-xDefine_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3729263BBFF5F9C4725FAEF39AF707 /* Pods-xDefine_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CCD84D9B7DD1BFA408E49ABFDF3DE52 /* xDefine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D01B0E07D0C020F24C7B4FB71007D9 /* xDefine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FD6A7FB5CCF31584085B14DB675C6E6 /* Pods-xDefine_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 676BF9099D76C0F9CF1E04636030559B /* Pods-xDefine_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3329FD4B5F2FCFAFF26C053AF45FC82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A6C2DD807E462EA5620FA119E5B374A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DAD825BAF40E0D1295E37967DBDD6CBA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C206926D784F9E2588446BC504D74729 /* ReplaceMe.swift */; };
 		E6E73CFDF34253620170BA5687EA1611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F189ACC406D056BF7322E361A2E84B13 /* xDefine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF282C0EDA058AAABADBB1D9EA18B17 /* xDefine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,47 +45,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		062B84F735821D67291CC9F2C94E71EB /* xDefine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = xDefine.modulemap; sourceTree = "<group>"; };
+		04E7C0CA2671E910006C69FF /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		04E7C0CF2671E96B006C69FF /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		04E7C0D42671E9AE006C69FF /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		04E7C0DC2671E9D9006C69FF /* Lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
+		04E7C0E42671EA9C006C69FF /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		04E7C0E92671EAE1006C69FF /* Timestamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timestamp.swift; sourceTree = "<group>"; };
+		04E7C0EE2671EB79006C69FF /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		04E7C0F82671EBF3006C69FF /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 		14302C67FB9CBDD513586E3D4070C503 /* Pods-xDefine_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xDefine_Example-Info.plist"; sourceTree = "<group>"; };
-		1739A9B8D4BE87CCA97105BA195C7C3F /* xDefine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = xDefine.release.xcconfig; sourceTree = "<group>"; };
+		1AF282C0EDA058AAABADBB1D9EA18B17 /* xDefine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "xDefine-umbrella.h"; sourceTree = "<group>"; };
 		1B3729263BBFF5F9C4725FAEF39AF707 /* Pods-xDefine_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xDefine_Example-umbrella.h"; sourceTree = "<group>"; };
 		22A3846EF5D315C1596B1B39768060C4 /* Pods-xDefine_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-xDefine_Tests.modulemap"; sourceTree = "<group>"; };
 		2D04784DB5B163003C982E6FEEB7199E /* Pods-xDefine_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-xDefine_Example.modulemap"; sourceTree = "<group>"; };
 		2DFFCCEE2F3594AC83CE55F4A82B91AC /* Pods-xDefine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xDefine_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2E87F7322A2BE6B5905FCA1EBE6C3FA9 /* Pods-xDefine_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xDefine_Example-dummy.m"; sourceTree = "<group>"; };
+		2F628A5D1ACED36E6B418D37277C74BA /* xDefine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = xDefine.modulemap; sourceTree = "<group>"; };
 		30DD803BB9B6784D18395AED7C93585A /* Pods-xDefine_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xDefine_Tests-Info.plist"; sourceTree = "<group>"; };
-		31D01B0E07D0C020F24C7B4FB71007D9 /* xDefine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "xDefine-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33D52EAD7B0299D0CE6518E375D6E768 /* Pods-xDefine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xDefine_Example.release.xcconfig"; sourceTree = "<group>"; };
+		42E424B4E99A714365E76B9F83B8424C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4657CEE54DBF39BEB95706A3BAF14A95 /* Pods-xDefine_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xDefine_Tests-dummy.m"; sourceTree = "<group>"; };
-		4AA389B03A568E85DD278445BA0517BC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = xDefine/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		4B1D01B1C3201E1C06AEA907890C761B /* xDefine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = xDefine.debug.xcconfig; sourceTree = "<group>"; };
 		66FE6E1427B6AE38D091F9C766898E2A /* Pods-xDefine_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xDefine_Example-frameworks.sh"; sourceTree = "<group>"; };
 		676BF9099D76C0F9CF1E04636030559B /* Pods-xDefine_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xDefine_Tests-umbrella.h"; sourceTree = "<group>"; };
-		747060C66FF9B0BB324A65C7FC8C37D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7C393B84651A6F7AD4A938A5A3F68F72 /* Pods_xDefine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_xDefine_Tests.framework; path = "Pods-xDefine_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80752CBB5FF258E8C44B099587D85CEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		8FA9C8D41835B46ED41D9AF262674437 /* xDefine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "xDefine-dummy.m"; sourceTree = "<group>"; };
+		7C393B84651A6F7AD4A938A5A3F68F72 /* Pods_xDefine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xDefine_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91164DA48C4C84A6C5A9F07E618CEAB8 /* Pods-xDefine_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xDefine_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9AC1BBCE02D0BC70569B67FBD9535726 /* Pods-xDefine_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xDefine_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3FE6172748C6CDD94742E8CD189F809 /* xDefine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "xDefine-Info.plist"; sourceTree = "<group>"; };
+		A890378F25D058B3C4CDCAD43C10D3DD /* xDefine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "xDefine-dummy.m"; sourceTree = "<group>"; };
+		A97EE21D40FC0BC871244767FFC18819 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ABDE7C9D846492732B2DF3210B929B63 /* Pods-xDefine_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xDefine_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AC2610A72FB8692D29C8E0C5F3E42843 /* xDefine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "xDefine-Info.plist"; sourceTree = "<group>"; };
-		B57462C0731A0C7F361C68EB22A53E03 /* Pods_xDefine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_xDefine_Example.framework; path = "Pods-xDefine_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC52AF40DDDF232A0AF67EEA3B63BAAB /* xDefine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "xDefine-prefix.pch"; sourceTree = "<group>"; };
-		CF7C1950BE52F72685BBEC751D501858 /* xDefine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = xDefine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D34B05EF7582CE586423134632BB1C55 /* xDefine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = xDefine.framework; path = xDefine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57462C0731A0C7F361C68EB22A53E03 /* Pods_xDefine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xDefine_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76D549108A5ECE4677DB1C44C6FFF1C /* xDefine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = xDefine.debug.xcconfig; sourceTree = "<group>"; };
+		C206926D784F9E2588446BC504D74729 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = xDefine/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D34B05EF7582CE586423134632BB1C55 /* xDefine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = xDefine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C0882C99982829D93B68DA256F0F9E /* Pods-xDefine_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xDefine_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E82E3D906EEF6F7C1E0FC84958635B8B /* xDefine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "xDefine-prefix.pch"; sourceTree = "<group>"; };
+		ED49DC01A054CE4581B686B627FE3627 /* xDefine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = xDefine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F6FE5572BB14A12EE93EA9601D89CBA3 /* Pods-xDefine_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xDefine_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8D10B34559E68DB3F502FB97ED06386 /* xDefine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = xDefine.release.xcconfig; sourceTree = "<group>"; };
 		FD55EE03359E7E9EFA923D9A846996CC /* Pods-xDefine_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xDefine_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04C8C7840BF52D2208D7CF606DCC12AB /* Frameworks */ = {
+		7193EFE7DC651273CA5FD0D9159622F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6C2DD807E462EA5620FA119E5B374A7 /* Foundation.framework in Frameworks */,
+				0FAFDFE4FB49B26E54CF9ED847265907 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,25 +116,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BB5F200E8A8BD9C2EB144689BA16C63 /* Pod */ = {
+		08DB6048AAFED909D951340EFDCAF83D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				80752CBB5FF258E8C44B099587D85CEC /* LICENSE */,
-				747060C66FF9B0BB324A65C7FC8C37D0 /* README.md */,
-				CF7C1950BE52F72685BBEC751D501858 /* xDefine.podspec */,
+				2F628A5D1ACED36E6B418D37277C74BA /* xDefine.modulemap */,
+				A890378F25D058B3C4CDCAD43C10D3DD /* xDefine-dummy.m */,
+				A3FE6172748C6CDD94742E8CD189F809 /* xDefine-Info.plist */,
+				E82E3D906EEF6F7C1E0FC84958635B8B /* xDefine-prefix.pch */,
+				1AF282C0EDA058AAABADBB1D9EA18B17 /* xDefine-umbrella.h */,
+				B76D549108A5ECE4677DB1C44C6FFF1C /* xDefine.debug.xcconfig */,
+				F8D10B34559E68DB3F502FB97ED06386 /* xDefine.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/xDefine";
 			sourceTree = "<group>";
 		};
-		22116D00D1D34F98AA76437CF6AA440E /* xDefine */ = {
+		1208268258DBE045F79332DABFBFB339 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4AA389B03A568E85DD278445BA0517BC /* ReplaceMe.swift */,
-				1BB5F200E8A8BD9C2EB144689BA16C63 /* Pod */,
-				9B54B7581C6A1B2554BD5EF52EDF2D97 /* Support Files */,
+				42E424B4E99A714365E76B9F83B8424C /* LICENSE */,
+				A97EE21D40FC0BC871244767FFC18819 /* README.md */,
+				ED49DC01A054CE4581B686B627FE3627 /* xDefine.podspec */,
 			);
-			name = xDefine;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		22FD01D02F0D10A4680F7C4FFC8A5C55 /* Pods-xDefine_Example */ = {
@@ -136,6 +156,18 @@
 			);
 			name = "Pods-xDefine_Example";
 			path = "Target Support Files/Pods-xDefine_Example";
+			sourceTree = "<group>";
+		};
+		4951202323A191597496A982EAD191F1 /* Value */ = {
+			isa = PBXGroup;
+			children = (
+				04E7C0D42671E9AE006C69FF /* Notification.swift */,
+				04E7C0CF2671E96B006C69FF /* Bar.swift */,
+				04E7C0CA2671E910006C69FF /* Screen.swift */,
+				04E7C0EE2671EB79006C69FF /* View.swift */,
+			);
+			name = Value;
+			path = xDefine/Classes/Value;
 			sourceTree = "<group>";
 		};
 		495D40792E278C05C2340855AFE037B3 /* Targets Support Files */ = {
@@ -157,29 +189,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9386FEE1C5DE0EC9803390DE17391C08 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				22116D00D1D34F98AA76437CF6AA440E /* xDefine */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9B54B7581C6A1B2554BD5EF52EDF2D97 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				062B84F735821D67291CC9F2C94E71EB /* xDefine.modulemap */,
-				8FA9C8D41835B46ED41D9AF262674437 /* xDefine-dummy.m */,
-				AC2610A72FB8692D29C8E0C5F3E42843 /* xDefine-Info.plist */,
-				CC52AF40DDDF232A0AF67EEA3B63BAAB /* xDefine-prefix.pch */,
-				31D01B0E07D0C020F24C7B4FB71007D9 /* xDefine-umbrella.h */,
-				4B1D01B1C3201E1C06AEA907890C761B /* xDefine.debug.xcconfig */,
-				1739A9B8D4BE87CCA97105BA195C7C3F /* xDefine.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/xDefine";
-			sourceTree = "<group>";
-		};
 		AA4110E358A93CA5401FEE8223D3FABE /* Pods-xDefine_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +205,19 @@
 			path = "Target Support Files/Pods-xDefine_Tests";
 			sourceTree = "<group>";
 		};
+		BDDEDE1B0450E62AA750A1421DEF6928 /* xDefine */ = {
+			isa = PBXGroup;
+			children = (
+				C206926D784F9E2588446BC504D74729 /* ReplaceMe.swift */,
+				4951202323A191597496A982EAD191F1 /* Value */,
+				FD020A24AA563341F2E5D9C3513AB936 /* Function */,
+				1208268258DBE045F79332DABFBFB339 /* Pod */,
+				08DB6048AAFED909D951340EFDCAF83D /* Support Files */,
+			);
+			name = xDefine;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,7 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9386FEE1C5DE0EC9803390DE17391C08 /* Development Pods */,
+				EE699469E61EE07EC32DB62951C4C607 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				5041AB16B6AF66B986B1A285ECED4151 /* Products */,
 				495D40792E278C05C2340855AFE037B3 /* Targets Support Files */,
@@ -223,6 +245,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EE699469E61EE07EC32DB62951C4C607 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDDEDE1B0450E62AA750A1421DEF6928 /* xDefine */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FD020A24AA563341F2E5D9C3513AB936 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				04E7C0DC2671E9D9006C69FF /* Lock.swift */,
+				04E7C0E42671EA9C006C69FF /* Log.swift */,
+				04E7C0E92671EAE1006C69FF /* Timestamp.swift */,
+				04E7C0F82671EBF3006C69FF /* Random.swift */,
+			);
+			name = Function;
+			path = xDefine/Classes/Function;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -234,11 +276,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0381EE8F6B938868F514F847440D142 /* Headers */ = {
+		B0522C51898010AF0E17775E2AD0DDC6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CCD84D9B7DD1BFA408E49ABFDF3DE52 /* xDefine-umbrella.h in Headers */,
+				F189ACC406D056BF7322E361A2E84B13 /* xDefine-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +297,12 @@
 /* Begin PBXNativeTarget section */
 		01D42669850D43CDD0F9EFE7386F30D1 /* xDefine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4B41BAE44BFA01D6C19E83DDC29CAE7 /* Build configuration list for PBXNativeTarget "xDefine" */;
+			buildConfigurationList = 8645D909FAAFFD2C525661E68BC5F5ED /* Build configuration list for PBXNativeTarget "xDefine" */;
 			buildPhases = (
-				A0381EE8F6B938868F514F847440D142 /* Headers */,
-				71C9D945541054D4CD92639AD20E685F /* Sources */,
-				04C8C7840BF52D2208D7CF606DCC12AB /* Frameworks */,
-				4BBFC782D5005AA14DFC0EF076838EA9 /* Resources */,
+				B0522C51898010AF0E17775E2AD0DDC6 /* Headers */,
+				5FFD81CF4707E42E3AD317893841239A /* Sources */,
+				7193EFE7DC651273CA5FD0D9159622F5 /* Frameworks */,
+				307E5A4426AE7E74AD06218BC46FCBB9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,7 +381,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4BBFC782D5005AA14DFC0EF076838EA9 /* Resources */ = {
+		307E5A4426AE7E74AD06218BC46FCBB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,12 +413,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71C9D945541054D4CD92639AD20E685F /* Sources */ = {
+		5FFD81CF4707E42E3AD317893841239A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61349589054961AE08A544AAD01F0FF5 /* ReplaceMe.swift in Sources */,
-				1798B88137EF6865D7A7E72DCA962097 /* xDefine-dummy.m in Sources */,
+				04E7C0CB2671E910006C69FF /* Screen.swift in Sources */,
+				04E7C0E52671EA9C006C69FF /* Log.swift in Sources */,
+				04E7C0D02671E96B006C69FF /* Bar.swift in Sources */,
+				04E7C0DD2671E9D9006C69FF /* Lock.swift in Sources */,
+				04E7C0D52671E9AE006C69FF /* Notification.swift in Sources */,
+				04E7C0EF2671EB79006C69FF /* View.swift in Sources */,
+				DAD825BAF40E0D1295E37967DBDD6CBA /* ReplaceMe.swift in Sources */,
+				04E7C0EA2671EAE1006C69FF /* Timestamp.swift in Sources */,
+				22D5A8820CF6A736807CAEF9F2DD893F /* xDefine-dummy.m in Sources */,
+				04E7C0F92671EBF3006C69FF /* Random.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +456,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		033202E8F515CD1B3E82A21AB3131705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76D549108A5ECE4677DB1C44C6FFF1C /* xDefine.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/xDefine/xDefine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/xDefine/xDefine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/xDefine/xDefine.modulemap";
+				PRODUCT_MODULE_NAME = xDefine;
+				PRODUCT_NAME = xDefine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		3252DDC1AE2A6DBFC66F47042936C3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33D52EAD7B0299D0CE6518E375D6E768 /* Pods-xDefine_Example.release.xcconfig */;
@@ -440,6 +521,38 @@
 			};
 			name = Release;
 		};
+		4448B2EA6ACB8A8C7D408FD7C3F2BAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D10B34559E68DB3F502FB97ED06386 /* xDefine.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/xDefine/xDefine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/xDefine/xDefine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/xDefine/xDefine.modulemap";
+				PRODUCT_MODULE_NAME = xDefine;
+				PRODUCT_NAME = xDefine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4F903BBE8DE5D2E6D784321BDD4B3BFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2DFFCCEE2F3594AC83CE55F4A82B91AC /* Pods-xDefine_Tests.release.xcconfig */;
@@ -467,38 +580,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		71E00149E1BCF63F09A7BD95514C5DA4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1739A9B8D4BE87CCA97105BA195C7C3F /* xDefine.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/xDefine/xDefine-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/xDefine/xDefine-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/xDefine/xDefine.modulemap";
-				PRODUCT_MODULE_NAME = xDefine;
-				PRODUCT_NAME = xDefine;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -559,8 +640,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -663,37 +743,6 @@
 			};
 			name = Debug;
 		};
-		9DE1C62E2FB570CF0E6A735E554E93D9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B1D01B1C3201E1C06AEA907890C761B /* xDefine.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/xDefine/xDefine-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/xDefine/xDefine-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/xDefine/xDefine.modulemap";
-				PRODUCT_MODULE_NAME = xDefine;
-				PRODUCT_NAME = xDefine;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		FB616DE85F687340D93C468B92F76EE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 91164DA48C4C84A6C5A9F07E618CEAB8 /* Pods-xDefine_Example.debug.xcconfig */;
@@ -748,20 +797,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8645D909FAAFFD2C525661E68BC5F5ED /* Build configuration list for PBXNativeTarget "xDefine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033202E8F515CD1B3E82A21AB3131705 /* Debug */,
+				4448B2EA6ACB8A8C7D408FD7C3F2BAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A50BFB29DB7F95A25EF6704E674861D4 /* Build configuration list for PBXNativeTarget "Pods-xDefine_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				926108C61EBB48BAE52C95C3F9AAE56A /* Debug */,
 				4F903BBE8DE5D2E6D784321BDD4B3BFF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B4B41BAE44BFA01D6C19E83DDC29CAE7 /* Build configuration list for PBXNativeTarget "xDefine" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9DE1C62E2FB570CF0E6A735E554E93D9 /* Debug */,
-				71E00149E1BCF63F09A7BD95514C5DA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

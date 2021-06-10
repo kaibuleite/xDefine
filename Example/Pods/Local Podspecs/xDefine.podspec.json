@@ -1,19 +1,19 @@
 {
   "name": "xDefine",
-  "version": "0.1.0",
-  "summary": "A short description of xDefine.",
+  "version": "1.0.1",
+  "summary": "Swift xDefine.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/177955297@qq.com/xDefine",
+  "homepage": "https://github.com/kaibuleite/xDefine",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "177955297@qq.com": "177955297@qq.com"
+    "kaibuleite": "177955297@qq.com"
   },
   "source": {
-    "git": "https://github.com/177955297@qq.com/xDefine.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/kaibuleite/xDefine.git",
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "9.0"

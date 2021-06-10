@@ -1,5 +1,5 @@
 PODS:
-  - xDefine (0.1.0)
+  - xDefine (1.0.1)
 
 DEPENDENCIES:
   - xDefine (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  xDefine: 135806774ded6167d6f9f0a91d5987db93aa9625
+  xDefine: 9aabd6783e24a251e86ff71ac7398fc2e41ed045
 
 PODFILE CHECKSUM: 05e66c66ef8c10f714fb9d155891e1488690f034
 

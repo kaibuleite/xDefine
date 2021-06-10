@@ -1,0 +1,6 @@
+framework module Pods_xDefine_Example {
+  umbrella header "Pods-xDefine_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'xDefine'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Swift xDefine.'
 
 # This description is used to generate tags and improve search results.

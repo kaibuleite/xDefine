@@ -15,6 +15,7 @@
 		04E7C0EA2671EAE1006C69FF /* Timestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7C0E92671EAE1006C69FF /* Timestamp.swift */; };
 		04E7C0EF2671EB79006C69FF /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7C0EE2671EB79006C69FF /* View.swift */; };
 		04E7C0F92671EBF3006C69FF /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7C0F82671EBF3006C69FF /* Random.swift */; };
+		04F7ADE029D55F8500C74A7D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7ADDF29D55F8500C74A7D /* Color.swift */; };
 		0FAFDFE4FB49B26E54CF9ED847265907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		22D5A8820CF6A736807CAEF9F2DD893F /* xDefine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A890378F25D058B3C4CDCAD43C10D3DD /* xDefine-dummy.m */; };
 		3B65BCEDE5F6B9460A515144B99C4B9F /* Pods-xDefine_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657CEE54DBF39BEB95706A3BAF14A95 /* Pods-xDefine_Tests-dummy.m */; };
@@ -53,6 +54,7 @@
 		04E7C0E92671EAE1006C69FF /* Timestamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timestamp.swift; sourceTree = "<group>"; };
 		04E7C0EE2671EB79006C69FF /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		04E7C0F82671EBF3006C69FF /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		04F7ADDF29D55F8500C74A7D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		14302C67FB9CBDD513586E3D4070C503 /* Pods-xDefine_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xDefine_Example-Info.plist"; sourceTree = "<group>"; };
 		1AF282C0EDA058AAABADBB1D9EA18B17 /* xDefine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "xDefine-umbrella.h"; sourceTree = "<group>"; };
 		1B3729263BBFF5F9C4725FAEF39AF707 /* Pods-xDefine_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xDefine_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				04E7C0D42671E9AE006C69FF /* Notification.swift */,
+				04F7ADDF29D55F8500C74A7D /* Color.swift */,
 				04E7C0CF2671E96B006C69FF /* Bar.swift */,
 				04E7C0CA2671E910006C69FF /* Screen.swift */,
 				04E7C0EE2671EB79006C69FF /* View.swift */,
@@ -419,6 +422,7 @@
 			files = (
 				04E7C0CB2671E910006C69FF /* Screen.swift in Sources */,
 				04E7C0E52671EA9C006C69FF /* Log.swift in Sources */,
+				04F7ADE029D55F8500C74A7D /* Color.swift in Sources */,
 				04E7C0D02671E96B006C69FF /* Bar.swift in Sources */,
 				04E7C0DD2671E9D9006C69FF /* Lock.swift in Sources */,
 				04E7C0D52671E9AE006C69FF /* Notification.swift in Sources */,
